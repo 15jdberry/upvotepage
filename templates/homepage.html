@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Upvote Page</title>
+        <link rel="stylesheet" href="/static/styles/styles.css" >
+    </head>
+    <body>
+        <form method="post">
+            <h1>Upvote Page</h1>
+            <h2>Net Vote: {{ net_vote }}</h2>
+            <button type="submit" name="vote" value="up">
+                <img alt="up arrow"
+                     src="/static/images/arrow-up.png"><br>Upvote
+            </button>
+            <button type="submit" name="vote" value="down">
+                <img alt="down arrow"
+                     src="/static/images/arrow-down.png"><br>Downvote
+            </button>
+        </form>
+    </body>
+</html>
